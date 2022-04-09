@@ -1,0 +1,78 @@
+.bird-details {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #444;
+  width: 100%;
+}
+
+.bird-details .bird-image {
+  width: 200px;
+  height: 155px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.bird-details .list-group-item {
+  padding: .25rem;
+}
+
+.bird-details .list-group-item .term{
+  margin-right: .5rem;
+}
+
+.card-body {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  min-height: 173px;
+}
+
+.card-body .list-group {
+  width: calc(100% - 240px);
+}
+
+.instruction span {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .card-body {
+    flex-direction: column;
+  }
+  .bird-details .bird-image {
+    display: block;
+    margin: 0 auto 25px;
+  }
+  .card-body .list-group {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {  
+  .bird-details {
+    display: block;
+    margin-top: 40px;    
+  }
+  .card-body {
+    flex-direction: row;
+  }
+  .bird-details .bird-image {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 570px) {  
+  .card-body {
+    flex-direction: column;
+  }
+  
+  .bird-details .bird-image {
+    margin: 0 auto 25px;
+  }
+  
+  h4,
+  .card-body .list-group-item:nth-child(2) {
+    text-align: center;
+  }
+}

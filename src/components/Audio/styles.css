@@ -1,0 +1,67 @@
+.audio-player {
+  margin: 10px 40px 8px 0;
+  width: 100%;
+  min-width: 100px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.playback-button {
+  transition: 0.2s;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00bc8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.playback-button svg {
+  transition: 0.2s;
+  width: 18px;
+  height: 18px;
+  color: #54b1c1;
+}
+
+.playback-button:hover svg {
+  width: 18px;
+  height: 18px;
+  color: #00bc8c;
+  transform: scale(1.03);
+}
+
+.timebar {
+  flex: 1 1;
+  margin-top: 12px;
+}
+
+.timebar-bar {
+  height: 4px;
+}
+
+.timebar-circle {
+  background-color: grey;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  transform: translate(-50%, calc(-50% + 2px));
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.timebar-time-info {
+  margin-top: 8px;
+  font-size: 11px;
+  color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+}

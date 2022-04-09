@@ -1,0 +1,48 @@
+.random-bird {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 25px;
+}
+
+.random-bird .bird-image {
+  width: 200px;
+  height: 155px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.random-bird > div {
+  width: calc(100% - 240px);
+  margin: 0;
+}
+
+.random-bird .list-group {
+  margin-left: 40px;
+}
+
+.random-bird .list-group-item {
+  padding: .25rem;
+}
+
+@media (max-width: 570px) {  
+  .random-bird {
+    flex-direction: column;
+  }
+  
+  .random-bird > div {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .random-bird .bird-image {
+    margin: 0 auto 25px;
+  }
+  
+  .random-bird .list-group {
+    margin-left: 0px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+}

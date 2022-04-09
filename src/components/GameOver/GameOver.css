@@ -1,0 +1,25 @@
+.game-over {
+  display: block;
+}
+
+.btn-game-over {
+  width: 100%;
+  padding: 15px;
+  margin: 25px 0;
+}
+
+.img-win {
+  width: 100%;
+}
+
+@media (max-width: 767px) {  
+  h1.display-3 {
+    font-size: 3rem;    
+  }
+}
+
+@media (max-width: 470px) {  
+  h1.display-3 {
+    font-size: 2rem;    
+  }
+}

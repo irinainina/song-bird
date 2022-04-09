@@ -1,0 +1,32 @@
+.row.mb2 {
+  position: relative;  
+}
+
+
+.btn {
+  width: 100%;
+  margin: 25px 15px;
+  background-color: #303030;
+  border: 1px solid #444;
+  color: #fff !important;
+  box-shadow: none;
+  cursor: auto;
+  transition: .3s;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:active {
+  border: 1px solid #666 !important;
+}
+
+.btn-next {
+  background-color: #00bc8c;
+  cursor: pointer;  
+}
+
+.btn-next:hover {
+  background-color: #00EFB2;
+}
