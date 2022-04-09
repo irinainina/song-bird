@@ -1,2 +1,2 @@
-# birds-quiz
-https://birds-quiz.netlify.com/
+# song-bird
+https://irinainina.github.io/song-bird/
