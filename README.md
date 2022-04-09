@@ -1,2 +1,2 @@
 # song-bird
-https://irinainina.song-bird/portfolio/
+https://irinainina.github.io/song-bird/
